@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120">
+  <style>
+    text {
+      font-family: monospace;
+      font-size: 42px;
+      fill: #000;
+    }
+  </style>
+
+  <!-- TRAN -->
+  <text x="0"   y="70">T</text>
+  <text x="70"  y="70">
+    R
+    <animate attributeName="x" from="70" to="40" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+  <text x="140" y="70">
+    A
+    <animate attributeName="x" from="140" to="80" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+  <text x="210" y="70">
+    N
+    <animate attributeName="x" from="210" to="120" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- MINH -->
+  <text x="350" y="70">M</text>
+  <text x="420" y="70">
+    I
+    <animate attributeName="x" from="420" to="390" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+  <text x="490" y="70">
+    N
+    <animate attributeName="x" from="490" to="430" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+  <text x="560" y="70">
+    H
+    <animate attributeName="x" from="560" to="470" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- TIEN -->
+  <text x="700" y="70">T</text>
+  <text x="770" y="70">
+    I
+    <animate attributeName="x" from="770" to="740" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+  <text x="840" y="70">
+    E
+    <animate attributeName="x" from="840" to="780" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+  <text x="910" y="70">
+    N
+    <animate attributeName="x" from="910" to="820" dur="1s" begin="1.5s" fill="freeze"/>
+  </text>
+
+</svg>
