@@ -77,25 +77,14 @@
       <stop offset="50%" stop-color="#feca57"/>
       <stop offset="100%" stop-color="#ee5a6f"/>
     </linearGradient>
-    
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;800;900&amp;display=swap');
-    
     text {
-      font-family: 'Be Vietnam Pro', sans-serif;
+      font-family: 'Arial Black', 'Arial Bold', 'Gadget', sans-serif;
       font-size: 52px;
       opacity: 0;
       font-weight: 900;
-      filter: url(#glow);
     }
   </style>
 
