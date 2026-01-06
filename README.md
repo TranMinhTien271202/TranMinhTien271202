@@ -1,1 +1,1 @@
-<img src="./assets/tran-minh-tien.svg" alt="TRAN MINH TIEN animation" />
+<img src="./assets/tran-minh-tien.svg?v=1" alt="TRAN MINH TIEN animation" />
